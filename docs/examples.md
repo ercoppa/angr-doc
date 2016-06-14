@@ -13,17 +13,32 @@ Binary, source, and script are found [here.](https://github.com/angr/angr-doc/tr
 
 ## CTF Problems
 
+### ReverseMe example: SecurityFest 2016 - fairlight
+
+Script author: chuckleberryfinn (github: [@chuckleberryfinn](https://github.com/chuckleberryfinn))
+
+Script runtime: ~20 seconds
+
+A simple reverse me that takes a key as a command line argument and checks it against 14 checks.
+Possible to solve the challenge using angr without reversing any of the checks.
+
+Here is the [binary](https://github.com/angr/angr-doc/tree/master/examples/securityfest_fairlight/fairlight) and the [script](https://github.com/angr/angr-doc/tree/master/examples/securityfest_fairlight/solve.py)
+
 ### ReverseMe example: DEFCON Quals 2016 - baby-re
 
-Script 0 author: David Manouchehri (github: [@Manouchehri](https://github.com/Manouchehri))
+- Script 0
 
-Script runtime: 8 minutes
+    author: David Manouchehri (github: [@Manouchehri](https://github.com/Manouchehri))
 
-Script 1 author: Stanislas Lejay (github: [@P1kachu](https://github.com/P1kachu))
+    Script runtime: 8 minutes
 
-Script runtime: 11 sec
+- Script 1
 
-Here is the [binary](https://github.com/angr/angr-doc/tree/master/examples/defcon2016quals_baby-re/baby-re) and the scripts:
+    author: Stanislas Lejay (github: [@P1kachu](https://github.com/P1kachu))
+
+    Script runtime: 11 sec
+
+Here is the [binary](https://github.com/angr/angr-doc/blob/master/examples/defcon2016quals_baby-re_1/baby-re) and the scripts:
 * [script0](https://github.com/angr/angr-doc/tree/master/examples/defcon2016quals_baby-re_0/solve.py)
 * [script1](https://github.com/angr/angr-doc/tree/master/examples/defcon2016quals_baby-re_1/solve.py)
 
